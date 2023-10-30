@@ -1,7 +1,7 @@
 {
   "name": "@ltodorov/primes",
   "version": "1.0.0",
-  "description": "Utility functions for prime numbers",
+  "description": "Utility functions for working with prime numbers",
   "type": "module",
   "engines": {
     "node": ">=18",
