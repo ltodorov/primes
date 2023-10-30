@@ -1,5 +1,5 @@
 # primes
-Utility functions for prime numbers
+Utility functions for working with prime number
 
 ## Scripts
 
