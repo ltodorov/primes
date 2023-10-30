@@ -14,6 +14,7 @@ Utility functions for working with prime number
 `pnpm compile`
 
 `node prime-factors.js` - Returns the prime factors of the entered number
+
 `node prime-list.js` - Returns all primes numbers that are bellow the entered number
 
 
