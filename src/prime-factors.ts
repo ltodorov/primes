@@ -1,6 +1,6 @@
 import { createInterface } from "node:readline";
 import chalk from "chalk";
-import getPrimeFactors from "./util/get-prime-factors.js";
+import { getPrimeFactors } from "./util/get-prime-factors.js";
 
 const readline = createInterface({
     input: process.stdin,

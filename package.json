@@ -9,13 +9,15 @@
   },
   "bin": {
     "prime-factors": "prime-factors.js",
-    "prime-list": "prime-list.js"
+    "prime-list": "prime-list.js",
+    "gcd": "gcd.js",
+    "lcm": "lcm.js"
   },
   "scripts": {
     "clean": "rimraf ./dist",
-    "compile": "pnpm clean && tsc",
+    "build": "pnpm clean && tsc",
     "lint": "pnpm eslint src/**/*",
-    "test": "pnpm compile && node --test",
+    "test": "pnpm build && node --test",
     "all": "pnpm lint && pnpm test"
   },
   "repository": {
@@ -35,12 +37,12 @@
   "author": "Lyubomir Todorov",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^20.8.9",
-    "@typescript-eslint/eslint-plugin": "^6.9.1",
-    "@typescript-eslint/parser": "^6.9.1",
-    "eslint": "^8.52.0",
+    "@types/node": "^20.10.4",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "eslint": "^8.55.0",
     "rimraf": "^5.0.5",
-    "typescript": "^5.2.2"
+    "typescript": "^5.3.3"
   },
   "dependencies": {
     "chalk": "^5.3.0"

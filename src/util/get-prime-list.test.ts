@@ -1,6 +1,6 @@
 import { describe, test } from "node:test";
 import assert from "node:assert";
-import getPrimeList from "./get-prime-list.js";
+import { getPrimeList } from "./get-prime-list.js";
 
 describe("getPrimeList", () => {
     test("returns prime numbers between 1 and 20", () => {

@@ -12,4 +12,6 @@ function getPrimeFactors(inputNum: number, result: number[] = []): number[] {
     return result;
 }
 
-export default getPrimeFactors;
+export {
+    getPrimeFactors,
+};

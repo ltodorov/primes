@@ -1,6 +1,6 @@
 import { describe, test } from "node:test";
 import assert from "node:assert";
-import getPrimeFactors from "./get-prime-factors.js";
+import { getPrimeFactors } from "./get-prime-factors.js";
 
 describe("getPrimeFactors", () => {
     test("returns zero prime factors for 1", () => {

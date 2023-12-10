@@ -1,6 +1,6 @@
 import { createInterface } from "node:readline";
 import chalk from "chalk";
-import getPrimeList from "./util/get-prime-list.js";
+import { getPrimeList } from "./util/get-prime-list.js";
 
 const readline = createInterface({
     input: process.stdin,

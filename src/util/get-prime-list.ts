@@ -12,4 +12,6 @@ function getPrimeList(max: number): number[] {
     return list;
 }
 
-export default getPrimeList;
+export {
+    getPrimeList,
+};
