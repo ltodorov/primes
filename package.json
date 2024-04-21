@@ -5,7 +5,7 @@
   "type": "module",
   "engines": {
     "node": ">=18",
-    "pnpm": ">=8"
+    "pnpm": ">=9"
   },
   "bin": {
     "prime-factors": "prime-factors.js",
