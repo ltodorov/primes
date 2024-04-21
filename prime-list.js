@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-import "./dist/prime-list.js";
+import "./dist/prime-list.js"

@@ -4,8 +4,8 @@
   "description": "Utility functions for working with prime numbers",
   "type": "module",
   "engines": {
-    "node": ">=18",
-    "pnpm": ">=8"
+    "node": ">=20",
+    "pnpm": ">=9"
   },
   "bin": {
     "prime-factors": "prime-factors.js",
@@ -14,11 +14,15 @@
     "lcm": "lcm.js"
   },
   "scripts": {
-    "clean": "rimraf ./dist",
+    "clean": "pnpm run /^clean:.+/",
+    "clean:build": "rimraf ./dist",
+    "clean:test": "rimraf ./coverage",
     "build": "pnpm clean && tsc",
-    "lint": "pnpm eslint src/**/*",
-    "test": "pnpm build && node --test",
-    "all": "pnpm lint && pnpm test"
+    "lint": "pnpm biome lint --apply .",
+    "format": "pnpm biome format --write .",
+    "check": "pnpm biome check --apply .",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "repository": {
     "type": "git",
@@ -28,21 +32,17 @@
     "url": "https://github.com/ltodorov/primes/issues"
   },
   "homepage": "https://github.com/ltodorov/primes",
-  "keywords": [
-    "typescript",
-    "javascript",
-    "nodejs",
-    "prime numbers"
-  ],
+  "keywords": ["typescript", "javascript", "nodejs", "prime numbers"],
   "author": "Lyubomir Todorov",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^20.10.4",
-    "@typescript-eslint/eslint-plugin": "^6.13.2",
-    "@typescript-eslint/parser": "^6.13.2",
-    "eslint": "^8.55.0",
+    "@biomejs/biome": "^1.7.0",
+    "@types/node": "^20.12.7",
+    "@vitest/coverage-v8": "^1.5.0",
+    "lefthook": "^1.6.10",
     "rimraf": "^5.0.5",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.5",
+    "vitest": "^1.5.0"
   },
   "dependencies": {
     "chalk": "^5.3.0"

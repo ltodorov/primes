@@ -1,11 +1,9 @@
 function getGcd(x: number, y: number) {
-    let res = x;
+    let res = x
     if (y > 0) {
-        res = getGcd(y, x % y);
+        res = getGcd(y, x % y)
     }
-    return res;
+    return res
 }
 
-export {
-    getGcd,
-};
+export { getGcd }
