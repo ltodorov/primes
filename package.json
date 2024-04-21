@@ -4,8 +4,8 @@
   "description": "Utility functions for working with prime numbers",
   "type": "module",
   "engines": {
-    "node": ">=20",
-    "pnpm": ">=9"
+    "node": ">=18",
+    "pnpm": ">=8"
   },
   "bin": {
     "prime-factors": "prime-factors.js",
