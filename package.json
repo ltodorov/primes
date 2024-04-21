@@ -1,6 +1,6 @@
 {
   "name": "@ltodorov/primes",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Utility functions for working with prime numbers",
   "type": "module",
   "engines": {
@@ -17,7 +17,7 @@
     "clean": "pnpm run /^clean:.+/",
     "clean:build": "rimraf ./dist",
     "clean:test": "rimraf ./coverage",
-    "build": "pnpm clean && tsc",
+    "build": "pnpm clean:build && tsc",
     "lint": "pnpm biome lint --apply .",
     "format": "pnpm biome format --write .",
     "check": "pnpm biome check --apply .",
