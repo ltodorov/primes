@@ -18,4 +18,8 @@ Utility functions for working with prime number
 
 `node prime-list.js` - Returns all primes numbers that are bellow the entered number
 
+`node gcd.js` - Returns the greatest common divisor (GCD) of two numbers
+
+`node lcm.js` - Returns the lowest common multiple (LCM) of the entered numbers
+
 
