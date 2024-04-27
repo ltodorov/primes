@@ -1,5 +1,4 @@
 import select from "@inquirer/select"
-import chalk from "chalk"
 import { afterEach, describe, expect, it, vi } from "vitest"
 
 vi.mock("@inquirer/select", () => ({
