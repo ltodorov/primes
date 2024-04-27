@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest"
-import { getLcm } from "./get-lcm.js"
+import { getLcm } from "../get-lcm.js"
 
 describe("getLcm (Least Common Multiple)", () => {
     test.each([

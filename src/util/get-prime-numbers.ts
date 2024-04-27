@@ -1,6 +1,6 @@
 import { checkPrimeSync } from "node:crypto"
 
-function getPrimeList(max: number): number[] {
+function getPrimeNumbers(max: number): number[] {
     const list: number[] = []
 
     for (let i = 2; i <= Math.abs(max); i += 1) {
@@ -12,4 +12,4 @@ function getPrimeList(max: number): number[] {
     return list
 }
 
-export { getPrimeList }
+export { getPrimeNumbers }

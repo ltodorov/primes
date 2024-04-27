@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest"
-import { getGcd } from "./get-gcd.js"
+import { getGcd } from "../get-gcd.js"
 
 describe("getGCD (Greatest Common Divisor)", () => {
     test.each([

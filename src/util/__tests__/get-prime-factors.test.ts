@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest"
-import { getPrimeFactors } from "./get-prime-factors.js"
+import { getPrimeFactors } from "../get-prime-factors.js"
 
 describe("getPrimeFactors", () => {
     test("returns zero prime factors for 1", () => {

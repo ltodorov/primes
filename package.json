@@ -1,18 +1,14 @@
 {
   "name": "@ltodorov/primes",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Utility functions for working with prime numbers",
   "type": "module",
   "engines": {
     "node": ">=18",
     "pnpm": ">=9"
   },
-  "bin": {
-    "prime-factors": "prime-factors.js",
-    "prime-list": "prime-list.js",
-    "gcd": "gcd.js",
-    "lcm": "lcm.js"
-  },
+  "main": "./dist/index.js",
+  "bin": "./index.js",
   "scripts": {
     "clean": "pnpm run /^clean:.+/",
     "clean:build": "rimraf ./dist",
@@ -22,7 +18,7 @@
     "format": "pnpm biome format --write .",
     "check": "pnpm biome check --apply .",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "pnpm clean:test && vitest run --coverage"
   },
   "repository": {
     "type": "git",
@@ -37,6 +33,7 @@
   "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "^1.7.0",
+    "@inquirer/testing": "^2.1.18",
     "@types/node": "^20.12.7",
     "@vitest/coverage-v8": "^1.5.0",
     "lefthook": "^1.6.10",
@@ -45,6 +42,8 @@
     "vitest": "^1.5.0"
   },
   "dependencies": {
+    "@inquirer/input": "^2.1.6",
+    "@inquirer/select": "^2.3.1",
     "chalk": "^5.3.0"
   }
 }
