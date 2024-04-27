@@ -18,7 +18,7 @@
     "format": "pnpm biome format --write .",
     "check": "pnpm biome check --apply .",
     "test": "vitest",
-    "coverage": "pnpm clean:test && vitest run --coverage"
+    "coverage": "vitest run --coverage"
   },
   "repository": {
     "type": "git",

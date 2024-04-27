@@ -1,5 +1,5 @@
 # primes
-Utility functions for working with prime number
+Utility functions for working with prime numbers
 
 ## Scripts
 
@@ -7,6 +7,7 @@ Utility functions for working with prime number
 * `pnpm build` - cleans and compile the typescript files
 * `pnpm lint` - statically analyzes your code to catch common errors and to help writing idiomatic code
 * `pnpm formatter` - formats your code
+* `pnpm check` - runs both `lint` and `formatter` scripts
 * `pnpm test` - runs tests
 * `pnpm coverage` - runs tests and enable coverage report
 
@@ -14,12 +15,9 @@ Utility functions for working with prime number
 
 `pnpm build`
 
-`node prime-factors.js` - Returns the prime factors of the entered number
+`node index.js` - Choose a command
 
-`node prime-list.js` - Returns all primes numbers that are bellow the entered number
-
-`node gcd.js` - Returns the greatest common divisor (GCD) of two numbers
-
-`node lcm.js` - Returns the lowest common multiple (LCM) of the entered numbers
-
-
+* **Prime Factors** returns the prime factors of the entered number
+* **Prime Numbers** returns all primes numbers that are bellow the entered number
+* **GCD** returns the greatest common divisor (GCD) of two numbers
+* **LCM** returns the lowest common multiple (LCM) of the entered numbers
