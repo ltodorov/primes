@@ -35,7 +35,7 @@ try {
             clearPromptOnDone: true,
         },
     )
-    const module = `./commands/${method}.ts`
+    const module = `./commands/${method}.js`
     await import(module)
 } catch (err) {
     console.error(err)

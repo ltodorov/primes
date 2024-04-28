@@ -18,6 +18,6 @@ Utility functions for working with prime numbers
 `node index.js` - Choose a command
 
 * **Prime Factors** returns the prime factors of the entered number
-* **Prime Numbers** returns all primes numbers that are bellow the entered number
-* **GCD** returns the greatest common divisor (GCD) of two numbers
-* **LCM** returns the lowest common multiple (LCM) of the entered numbers
+* **Prime Numbers** returns all prime numbers that are bellow the entered number
+* **GCD** returns the greatest common divisor of two numbers
+* **LCM** returns the lowest common multiple of the entered numbers
