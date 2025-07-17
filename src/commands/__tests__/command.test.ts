@@ -27,7 +27,6 @@ describe("command", () => {
     it("should log error", async () => {
         expect.assertions(1)
         const name = "Test command"
-        const result = 123
         const logSpy = vi.spyOn(console, "error").mockImplementation(() => {})
 
         await command<number>(name, () => Promise.reject("Error"))
