@@ -20,7 +20,8 @@
     "check": "pnpm biome check --write .",
     "check:ci": "pnpm biome ci .",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "update:biome": "biome migrate --write"
   },
   "repository": {
     "type": "git",
@@ -39,18 +40,18 @@
   "author": "Lyubomir Todorov",
   "license": "MIT",
   "devDependencies": {
-    "@biomejs/biome": "^2.4.2",
-    "@inquirer/testing": "^3.2.0",
-    "@types/node": "^24.10.13",
+    "@biomejs/biome": "^2.4.5",
+    "@inquirer/testing": "^3.3.0",
+    "@types/node": "^24.11.0",
     "@vitest/coverage-v8": "^4.0.18",
-    "lefthook": "^2.1.1",
+    "lefthook": "^2.1.2",
     "rimraf": "^6.1.3",
     "typescript": "^5.9.3",
     "vitest": "^4.0.18"
   },
   "dependencies": {
-    "@inquirer/input": "^5.0.7",
-    "@inquirer/select": "^5.0.7",
+    "@inquirer/input": "^5.0.8",
+    "@inquirer/select": "^5.1.0",
     "chalk": "^5.6.2"
   },
   "pnpm": {

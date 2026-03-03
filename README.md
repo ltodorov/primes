@@ -10,6 +10,7 @@ Utility functions for working with prime numbers
 * `pnpm check` - runs both `lint` and `formatter` scripts
 * `pnpm test` - runs tests
 * `pnpm coverage` - runs tests and enable coverage report
+* `pnpm update:biome` - migrates your Biome configuration to the latest version
 
 ## Usage
 
