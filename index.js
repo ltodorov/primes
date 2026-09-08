@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-import "./dist/index.js"
+import "./dist/index.js";
