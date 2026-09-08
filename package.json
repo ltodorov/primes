@@ -35,10 +35,10 @@
   },
   "dependencies": {
     "@inquirer/input": "^5.1.5",
-    "@inquirer/select": "^5.2.4"
+    "@inquirer/select": "^5.2.4",
+    "@ltodorov/primes": "link:"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.12",
     "@inquirer/testing": "^3.3.12",
     "@types/node": "^24.13.3",
     "@vitest/coverage-v8": "^5.0.0",
